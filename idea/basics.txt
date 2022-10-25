@@ -2,3 +2,43 @@ App to manage your weekly food plan, shopping list and kitchen stock.
 Runs all three together.
 Allows to feed in recipies, build up types of meal, randomly rotate and focus on certain things
 
+Can I link to supermarket API's?
+
+
+Initially Need:
+
+Kitchen Stock:
+  >>Fridge
+  >>Freezer
+  >>Store Cupboard
+  >>Fruit Bowl
+  >>Veg Supply
+  
+  >>Ability to add and remove items manually
+  >>Ability to update based on meal plans and assess what you have vs what you need to get to complete the plan
+  
+ Meals:
+   >>Recipies with ingredients
+   >>Ability to add and remove
+   >>Ability to group meals by types.  Healthy, high protein, weight loss, indulgent etc
+ 
+ ----------------------------------------------------------------------------------------------------------
+ 
+ Object and Classes:
+
+  Fridge, Freezer, Store cupboard, fruit bowl, Veg supply will be a list of food objects
+
+ Food Class:
+    -Type of food
+    -Storage Location
+    -Cost
+    -Nutritional Value
+    -Amount of items in weight, grams
+    
+  Meal Class:
+    -Type of meal (breakfast, lunch, dinner, snack)
+    -Ingridients list and amount(dictionary)
+    -Sub tags, healthy, high protein, indulgent etc
+    
+  Meal Planner Class:
+    -Ability to select meals at random, track, create custom plans, produce heatlhty, use what you have, save money long term
