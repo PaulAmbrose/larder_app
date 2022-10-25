@@ -20,3 +20,9 @@ class food():
     def FoodMoneyValue(self):
         FoodMoneyValue = (self.FoodAmount/100) * self.FoodCost
         return FoodMoneyValue
+
+    def AddMore(self, AmountBrought):
+        self.FoodAmount = self.FoodAmount + AmountBrought
+
+    def EatSome(self, AmountConsumed):
+        self.FoodAmount = self.FoodAmount - AmountConsumed
