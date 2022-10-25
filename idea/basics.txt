@@ -1,1 +1,4 @@
+App to manage your weekly food plan, shopping list and kitchen stock.
+Runs all three together.
+Allows to feed in recipies, build up types of meal, randomly rotate and focus on certain things
 
